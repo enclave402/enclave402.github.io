@@ -1,0 +1,136 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Enclave402 — Tools by Oliver Haughton (Coach Hype)</title>
+<meta name="description" content="The studio home of Oliver Haughton (Coach Hype): the Antidote Kit for AI coding agents, the Rel8r attachment coach, ADHD Works This Way, ADHD coaching, and free open-source tools.">
+<link rel="canonical" href="https://enclave402.com/">
+<meta property="og:title" content="Enclave402 — Tools by Oliver Haughton (Coach Hype)">
+<meta property="og:description" content="Tools for ADHD and AuDHD adults, and for people building with AI coding agents.">
+<meta property="og:url" content="https://enclave402.com/">
+<meta property="og:type" content="website">
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "Organization",
+      "@id": "https://enclave402.com/#org",
+      "name": "Enclave402",
+      "url": "https://enclave402.com/",
+      "founder": { "@id": "https://enclave402.com/#oliver" },
+      "sameAs": ["https://github.com/enclave402"]
+    },
+    {
+      "@type": "Person",
+      "@id": "https://enclave402.com/#oliver",
+      "name": "Oliver Haughton",
+      "alternateName": "Coach Hype",
+      "jobTitle": "AuDHD Coach, Founder, Educator",
+      "url": "https://enclave402.com/",
+      "sameAs": [
+        "https://www.coachhype.com/",
+        "https://adhdworksthisway.com/",
+        "https://sloppyxbaby.com/",
+        "https://rel8r.me/",
+        "https://github.com/enclave402"
+      ]
+    },
+    { "@type": "SoftwareApplication", "name": "Antidote Kit", "url": "https://sloppyxbaby.com/", "applicationCategory": "DeveloperApplication", "creator": { "@id": "https://enclave402.com/#oliver" } },
+    { "@type": "SoftwareApplication", "name": "Rel8r Pocket Attachment Coach", "url": "https://rel8r.me/", "applicationCategory": "HealthApplication", "creator": { "@id": "https://enclave402.com/#oliver" } },
+    { "@type": "SoftwareSourceCode", "name": "Narrative Token SSOT", "codeRepository": "https://github.com/enclave402/narrative-token-ssot", "license": "https://opensource.org/licenses/MIT", "creator": { "@id": "https://enclave402.com/#oliver" } }
+  ]
+}
+</script>
+<style>
+:root {
+  --bg: #fbfaf8; --fg: #1d1b1a; --muted: #625c57; --line: #e4dfda; --card: #ffffff;
+  --accent: #c4126b; --accent-fg: #ffffff; --tag: #f3eee9;
+}
+@media (prefers-color-scheme: dark) {
+  :root { --bg: #131211; --fg: #ece8e4; --muted: #a59e98; --line: #2d2a28; --card: #1b1918;
+    --accent: #ff4fa3; --accent-fg: #131211; --tag: #262321; }
+}
+* { box-sizing: border-box; }
+body { margin: 0; background: var(--bg); color: var(--fg);
+  font: 17px/1.6 ui-sans-serif, system-ui, -apple-system, "Segoe UI", sans-serif; }
+main { max-width: 880px; margin: 0 auto; padding: 56px 16px 72px; }
+.mark { font-weight: 800; letter-spacing: -0.02em; font-size: 1.05rem; margin: 0 0 40px; }
+h1 { font-size: clamp(2rem, 5vw, 2.8rem); line-height: 1.1; margin: 0 0 16px; letter-spacing: -0.025em; max-width: 18ch; }
+.lede { font-size: 1.15rem; color: var(--muted); margin: 0; max-width: 60ch; }
+h2 { font-size: 0.85rem; text-transform: uppercase; letter-spacing: 0.08em; color: var(--muted); margin: 64px 0 16px; }
+a { color: var(--accent); }
+.grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(min(260px, 100%), 1fr)); gap: 16px; }
+.card { background: var(--card); border: 1px solid var(--line); border-radius: 12px; padding: 20px;
+  display: flex; flex-direction: column; gap: 8px; text-decoration: none; color: inherit; }
+.card:hover { border-color: var(--accent); }
+.card.featured { grid-column: 1 / -1; }
+.card h3 { margin: 0; font-size: 1.2rem; letter-spacing: -0.01em; }
+.card p { margin: 0; color: var(--muted); }
+.card .go { margin-top: auto; padding-top: 8px; color: var(--accent); font-weight: 600; }
+.tag { align-self: flex-start; font-size: 0.75rem; font-weight: 600; background: var(--tag); padding: 2px 8px; border-radius: 999px; }
+.about p { max-width: 62ch; }
+footer { margin-top: 64px; padding-top: 16px; border-top: 1px solid var(--line); color: var(--muted); font-size: 0.9rem; }
+</style>
+</head>
+<body>
+<main>
+  <p class="mark">Enclave402</p>
+  <h1>Tools for ADHD and AuDHD adults, and for people building with AI agents.</h1>
+  <p class="lede">I'm Oliver Haughton, an AuDHD coach. Everything I build is listed here, paid and free.</p>
+
+  <h2>For people building with AI agents</h2>
+  <div class="grid">
+    <a class="card featured" href="https://sloppyxbaby.com/?utm_source=enclave402&amp;utm_medium=hub&amp;utm_campaign=studio">
+      <span class="tag">Flagship · pay once</span>
+      <h3>Antidote Kit</h3>
+      <p>Your coding agent forgets your rules. The Antidote Kit keeps them in plain files in your repo, read every session. Works with Cursor, Claude Code, Codex and Copilot.</p>
+      <span class="go">sloppyxbaby.com →</span>
+    </a>
+    <a class="card" href="https://github.com/enclave402/antidote-kit-starter">
+      <span class="tag">Free · open source</span>
+      <h3>Antidote Kit Starter</h3>
+      <p>The free starting point: a day-one path and two skills, so your agent stops forgetting your rules.</p>
+      <span class="go">GitHub →</span>
+    </a>
+    <a class="card" href="https://enclave402.github.io/narrative-token-ssot/">
+      <span class="tag">Free · MIT</span>
+      <h3>Narrative Token SSOT</h3>
+      <p>Character names as build-time tokens, so AI agents can't drift them. One registry file for every name in your scenes and prompts.</p>
+      <span class="go">Docs →</span>
+    </a>
+  </div>
+
+  <h2>For ADHD and AuDHD adults</h2>
+  <div class="grid">
+    <a class="card" href="https://adhdworksthisway.com/?utm_source=enclave402&amp;utm_medium=hub&amp;utm_campaign=studio">
+      <span class="tag">Free screener</span>
+      <h3>ADHD Works This Way</h3>
+      <p>The AuDHD operating system: a free clinical self-report screener and executive function tools for neurodivergent brains.</p>
+      <span class="go">adhdworksthisway.com →</span>
+    </a>
+    <a class="card" href="https://www.coachhype.com/?utm_source=enclave402&amp;utm_medium=hub&amp;utm_campaign=studio">
+      <span class="tag">Coaching</span>
+      <h3>Coach Hype</h3>
+      <p>1:1 coaching, body doubling and the Flourish Engine, built on Dr. Neil Fiore's <em>The Now Habit</em>. Free readout, no tracking.</p>
+      <span class="go">coachhype.com →</span>
+    </a>
+    <a class="card" href="https://rel8r.me/?utm_source=enclave402&amp;utm_medium=hub&amp;utm_campaign=studio">
+      <span class="tag">Attachment coach</span>
+      <h3>Rel8r</h3>
+      <p>A pocket attachment coach that helps you rel8 to what's really happening. Includes <em>Dating Red Flags</em>, an illustrated graphic novel.</p>
+      <span class="go">rel8r.me →</span>
+    </a>
+  </div>
+
+  <h2>About</h2>
+  <div class="about">
+    <p>I earned a B.S. in Community Psychology from Georgia State University and worked as an IRB-approved researcher on the Grady Trauma Project at Emory University, studying trauma and resilience. Coaching is how I learned to move forward, through recovery, grief and the end of a long marriage, so it's what I do now.</p>
+    <p>The goal hasn't changed: help high-achieving adults with ADHD and AuDHD stop surviving, understand how their brains actually work, and build lives designed around their strengths.</p>
+  </div>
+
+  <footer>Enclave402 · Oliver Haughton (Coach Hype) · <a href="https://github.com/enclave402">GitHub</a></footer>
+</main>
+</body>
+</html>
