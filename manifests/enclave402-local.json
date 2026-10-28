@@ -1,0 +1,77 @@
+{
+  "items": [
+    {
+      "id": "antidote-kit",
+      "title": "Antidote Kit",
+      "summary": "Your coding agent forgets your rules. The Antidote Kit keeps them in plain files in your repo, read every session. Works with Cursor, Claude Code, Codex and Copilot.",
+      "type": "product",
+      "lane": "agents",
+      "url": "https://sloppyxbaby.com/",
+      "price": "paid",
+      "label": "Flagship · pay once",
+      "cta": "sloppyxbaby.com →",
+      "utm": true,
+      "featured": true
+    },
+    {
+      "id": "antidote-kit-starter",
+      "title": "Antidote Kit Starter",
+      "summary": "The free starting point: a day-one path and two skills, so your agent stops forgetting your rules.",
+      "type": "repo",
+      "lane": "agents",
+      "url": "https://github.com/enclave402/antidote-kit-starter",
+      "price": "free",
+      "label": "Free · open source",
+      "cta": "GitHub →",
+      "utm": false
+    },
+    {
+      "id": "narrative-token-ssot",
+      "title": "Narrative Token SSOT",
+      "summary": "Character names as build-time tokens, so AI agents can't drift them. One registry file for every name in your scenes and prompts.",
+      "type": "repo",
+      "lane": "agents",
+      "url": "https://github.com/enclave402/narrative-token-ssot",
+      "price": "free",
+      "label": "Free · MIT",
+      "cta": "GitHub →",
+      "utm": false
+    },
+    {
+      "id": "audhd-screener",
+      "title": "AuDHD Screener",
+      "summary": "A free self-report screener built on open-access measures. It runs in your browser and is a starting point, not a diagnosis.",
+      "type": "quiz",
+      "lane": "adhd",
+      "url": "https://www.coachhype.com/audhd-screener",
+      "price": "free",
+      "label": "Free screener",
+      "cta": "coachhype.com/audhd-screener →",
+      "utm": true
+    },
+    {
+      "id": "coach-hype",
+      "title": "Coach Hype",
+      "summary": "1:1 coaching, body doubling and the Flourish Engine, built on Dr. Neil Fiore's <em>The Now Habit</em>. Free readout, no tracking.",
+      "type": "product",
+      "lane": "adhd",
+      "url": "https://www.coachhype.com/",
+      "price": "coaching",
+      "label": "Coaching",
+      "cta": "coachhype.com →",
+      "utm": true
+    },
+    {
+      "id": "rel8r",
+      "title": "Rel8r",
+      "summary": "A pocket attachment coach that helps you rel8 to what's really happening. Includes <em>Dating Red Flags</em>, an illustrated graphic novel.",
+      "type": "tool",
+      "lane": "adhd",
+      "url": "https://rel8r.me/",
+      "price": "mixed",
+      "label": "Attachment coach",
+      "cta": "rel8r.me →",
+      "utm": true
+    }
+  ]
+}

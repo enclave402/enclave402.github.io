@@ -1,0 +1,30 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "enclave-resources manifest, published at /.well-known/enclave-resources.json",
+  "type": "object",
+  "required": ["items"],
+  "properties": {
+    "items": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "required": ["id", "title", "summary", "type", "lane", "url", "price"],
+        "properties": {
+          "id": { "type": "string" },
+          "title": { "type": "string" },
+          "summary": { "type": "string" },
+          "type": { "enum": ["guide", "story", "tool", "quiz", "product", "repo"] },
+          "lane": { "enum": ["agents", "adhd"] },
+          "url": { "type": "string", "pattern": "^https://" },
+          "price": { "type": "string" },
+          "updated": { "type": "string" },
+          "image": { "type": "string" },
+          "label": { "type": "string" },
+          "cta": { "type": "string" },
+          "featured": { "type": "boolean" },
+          "utm": { "type": "boolean" }
+        }
+      }
+    }
+  }
+}
