@@ -1,0 +1,33 @@
+name: sync-hub
+on:
+  schedule:
+    - cron: '17 6 * * *'
+  repository_dispatch:
+    types: [source-updated]
+  workflow_dispatch:
+permissions:
+  contents: write
+  issues: write
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          ref: gh-pages
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 20
+      - name: Build (validates manifests, checks every link)
+        run: node scripts/build.mjs
+      - name: Commit if changed
+        run: |
+          git config user.name "enclave402-sync"
+          git config user.email "noreply@enclave402.com"
+          git add index.html sitemap.xml llms.txt
+          git diff --cached --quiet || (git commit -m "sync: rebuild hub from source manifests" && git push)
+      - name: Open issue on failure
+        if: failure()
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: gh issue create --title "Hub sync blocked" --body "A gate failed, nothing was published. Run $GITHUB_SERVER_URL/$GITHUB_REPOSITORY/actions/runs/$GITHUB_RUN_ID"

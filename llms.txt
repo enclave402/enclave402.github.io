@@ -1,0 +1,15 @@
+# Enclave402
+
+> Resource hub for Oliver Haughton (Coach Hype): tools for ADHD and AuDHD adults, and for people building with AI agents.
+
+## For people building with AI agents
+
+- [Antidote Kit](https://sloppyxbaby.com/): Your coding agent forgets your rules. The Antidote Kit keeps them in plain files in your repo, read every session. Works with Cursor, Claude Code, Codex and Copilot.
+- [Antidote Kit Starter](https://github.com/enclave402/antidote-kit-starter): The free starting point: a day-one path and two skills, so your agent stops forgetting your rules.
+- [Narrative Token SSOT](https://github.com/enclave402/narrative-token-ssot): Character names as build-time tokens, so AI agents can't drift them. One registry file for every name in your scenes and prompts.
+
+## For ADHD and AuDHD adults
+
+- [AuDHD Screener](https://www.coachhype.com/audhd-screener): A free self-report screener built on open-access measures. It runs in your browser and is a starting point, not a diagnosis.
+- [Coach Hype](https://www.coachhype.com/): 1:1 coaching, body doubling and the Flourish Engine, built on Dr. Neil Fiore's The Now Habit. Free readout, no tracking.
+- [Rel8r](https://rel8r.me/): A pocket attachment coach that helps you rel8 to what's really happening. Includes Dating Red Flags, an illustrated graphic novel.

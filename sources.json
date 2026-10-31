@@ -1,0 +1,15 @@
+{
+  "org": "enclave402",
+  "site": "https://enclave402.com",
+  "utm": "utm_source=enclave402&utm_medium=hub&utm_campaign=studio",
+  "lanes": [
+    { "id": "agents", "title": "For people building with AI agents" },
+    { "id": "adhd", "title": "For ADHD and AuDHD adults" }
+  ],
+  "sources": [
+    { "name": "enclave402-local", "file": "manifests/enclave402-local.json", "required": true },
+    { "name": "coachhype", "url": "https://www.coachhype.com/.well-known/enclave-resources.json", "required": false },
+    { "name": "rel8r", "url": "https://rel8r.me/.well-known/enclave-resources.json", "required": false },
+    { "name": "sloppyxbaby", "url": "https://sloppyxbaby.com/.well-known/enclave-resources.json", "required": false }
+  ]
+}
