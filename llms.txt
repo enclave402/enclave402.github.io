@@ -7,9 +7,17 @@
 - [Antidote Kit](https://sloppyxbaby.com/): Your coding agent forgets your rules. The Antidote Kit keeps them in plain files in your repo, read every session. Works with Cursor, Claude Code, Codex and Copilot.
 - [Antidote Kit Starter](https://github.com/enclave402/antidote-kit-starter): The free starting point: a day-one path and two skills, so your agent stops forgetting your rules.
 - [Narrative Token SSOT](https://github.com/enclave402/narrative-token-ssot): Character names as build-time tokens, so AI agents can't drift them. One registry file for every name in your scenes and prompts.
+- [Narrative Token SSOT](https://sloppyxbaby.com/continuity-ssot): Keep your story characters the same people from the first picture to the last. A free, MIT-licensed folder of scripts that runs on your own computer.
 
 ## For ADHD and AuDHD adults
 
 - [AuDHD Screener](https://www.coachhype.com/audhd-screener): A free self-report screener built on open-access measures. It runs in your browser and is a starting point, not a diagnosis.
+- [The ADHD / AuDHD readout](https://www.coachhype.com/assessment): Four short screeners, scored in the open and explained in plain words. Your answers stay in your browser. Not a diagnosis.
+- [Free Résumé ATS Scan](https://www.coachhype.com/ats-scan): Paste your résumé and a job post. Get a match score, the keywords you're missing and the three fixes that matter most.
+- [The Activation Plan](https://www.coachhype.com/activation-plan): Just got a PIP or lost the job? Pick what happened and get a seven-day plan with one small move a day. It asks for one email.
+- [Work Style Assessment](https://www.coachhype.com/work-style-assessment): Ten questions about the work setup that fits you, and two things to watch for. Scored in your browser.
+- [The Attachment Compass](https://rel8r.me/attachment-compass.html): 20 statements, two dials: where my anxiety and avoidance sit right now in relationships and work.
+- [The Rel8r Playbook: Relational Firebreaks & Scripts](https://rel8r.me/moments.html): Real relationship situations decoded in 4 biological tiers. Free copy-ready scripts, somatic firebreaks, and dual-audience translations.
+- [Per My Last Email: a workplace story](https://rel8r.me/per-my-last-email.html): Fourteen messages. One word back. An illustrated story about the work fight that was never about the work, and the three moves that fix it.
 - [Coach Hype](https://www.coachhype.com/): 1:1 coaching, body doubling and the Flourish Engine, built on Dr. Neil Fiore's The Now Habit. Free readout, no tracking.
 - [Rel8r](https://rel8r.me/): A pocket attachment coach that helps you rel8 to what's really happening. Includes Dating Red Flags, an illustrated graphic novel.
