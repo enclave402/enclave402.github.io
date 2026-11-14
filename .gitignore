@@ -1,0 +1,8 @@
+# Added by repo-audit-remediation-runner
+.env
+.env.local
+.env.*.local
+.venv/
+venv/
+__pycache__/
+*.pyc
